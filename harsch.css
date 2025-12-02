@@ -4,3 +4,75 @@
     --c3-Accent1: #84DCC6;
     --c4-Accent2: #13AA84;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Unique CSS for the armies.html page*/
+.row{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 3px solid red;
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+
+    border: 3px solid blue;
+}
+.form_box p{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.form_box div{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.label_group{
+    width: 150px;
+    font-weight: bold;
+}
+.input_group{
+    padding: 4px;
+    flex: 1;
+}
+.button_box{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.form_box div button{
+    margin-bottom: 3px;
+}

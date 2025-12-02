@@ -3,11 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armies Page</title>
     <link rel="stylesheet" href="harsch.css">
+    <title>Battle Roster | Armies Page</title>
+    <!--| Armies – contains forms where all the players can insert all the facts about their army,
+     such as their NAME what FACTION their army is from and the NAME OF THIER ARMY. 
+     -NAME
+     -FACTION
+     -NAME OF ARMY
+     |-->
 </head>
-
 <body>
-
+    <header>
+        <img id="logo" src="images/harsch-logo.png" alt="Logo">
+        <nav>
+            <h1>Home</h1>
+            <h1>Armies</h1>
+            <h1>Roster</h1>
+        </nav>
+    </header>
+    <main>
+        <section class="row">
+            <div class="form_box">
+                    <p>Form Box 1</p>
+                    <div>
+                        <label class="label_group" for="figurename">Figure Name:</label>
+                        <input class="input_group" type="text" id="figurename" name="figurename" required>
+                    </div>
+                    <div>
+                        <label class="label_group" for="figurefaction">Figure Faction:</label>
+                        <input class="input_group" type="text" id="figurefaction" name="figurefaction" required>
+                    </div>
+                    <div>
+                        <label class="label_group" for="nameofarmy">Name of Army:</label>
+                        <input class="input_group" type="text" id="nameofarmy" name="nameofarmy" required>
+                    </div>
+                    <div class="button_box">
+                        <button type="submit">Submit</button>
+                    </div>
+            </div>
+            <div class="form_box">
+                <h1>Form Box 2</h1>
+            </div>
+            <div class="form_box">
+                <h1>Form Box 3</h1>
+            </div>
+        </section>
+        <section class="row">
+            <div class="form_box">
+                <h1>Form Box 4</h1>
+            </div>
+            <div class="form_box">
+                <h1>Form Box 5</h1>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
