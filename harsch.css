@@ -5,11 +5,22 @@
     --c4-Accent2: #13AA84;
 }
 
+/* General CSS */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+#logo {
+    border: 10px solid black;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 100px;
+}
+#logo img {
+    width: 100px;
+}
 
 
 
