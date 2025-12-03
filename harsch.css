@@ -7,23 +7,54 @@
 
 /* General CSS */
 
+header {
+    background-color: var(--c4-Accent2);
+    border-bottom: 10px solid var(--c1-Primary);
+}
+
 nav {
     display: flex;
-    justify-content: space-between;
+    
+}
+
+nav a {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: var(--c2-Secondary);
+    border: 5px solid black;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    text-align: center
+}
+
+nav a h1 {
+    margin: 10px;
+}
+
+#logo-frame {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 105px;
+    height: 95px;
+    
+
 }
 
 #logo {
-    border: 10px solid black;
-    border-radius: 10%;
-    overflow: hidden;
-    width: 100px;
-}
-#logo img {
-    width: 100px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
 }
 
 
+body {
+    background-color: var(--c1-Primary);
+}
 
+main {
+    background-color: var(--c2-Secondary);
+}
 
 
 
