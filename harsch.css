@@ -63,9 +63,18 @@ main {
 
 /*Unique CSS for the index.html page*/
 
+#purpose {
+    padding: 40px;
+}
 
+#index-main h1, #index-main p {
+    text-align: center;
+}
 
-
+#harsch-models {
+    width: 100%;
+    border: 20px solid var(--c3-Accent1)
+}
 
 
 
