@@ -47,13 +47,20 @@ nav a h1 {
 
 body {
     background-color: var(--c1-Primary);
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 main {
     background-color: var(--c2-Secondary);
+    
 }
 
-
+footer {
+    height: 100px;
+    background-color: var(--c4-Accent2);
+}
 
 
 
@@ -73,7 +80,10 @@ main {
 
 #harsch-models {
     width: 100%;
-    border: 20px solid var(--c3-Accent1)
+    border-top: 10px solid var(--c3-Accent1);
+    border-bottom: 10px solid var(--c3-Accent1);
+    
+    
 }
 
 
