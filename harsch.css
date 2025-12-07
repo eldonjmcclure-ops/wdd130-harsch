@@ -128,3 +128,43 @@ footer {
 
 /*Unique CSS for the roster.html page*/
 
+#roster-table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: var(--c2-Secondary);
+    border: 5px solid var(--c1-Primary);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#roster-table-container h2 {
+    color: var(--c1-Primary);
+    margin-bottom: 10px;
+}
+
+#roster-table-container p {
+    color: var(--c3-Accent1);
+    margin-bottom: 15px;
+}
+
+#roster-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#roster-table th, #roster-table td {
+    border: 2px solid var(--c1-Primary);
+    padding: 8px;
+    text-align: center;
+}
+
+#roster-table td[contenteditable="true"] {
+    background-color: var(--c3-Accent1);
+    font-weight: bold;
+}
+
+#roster-table th {
+    background-color: var(--c4-Accent2);
+    color: white;
+}
